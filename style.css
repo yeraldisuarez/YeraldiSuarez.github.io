@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #d3d3d3;
+  background-color: #ececec;
 }
 
 .navbar-collapse {
@@ -32,7 +32,7 @@ h1 {
 }
 
 .seccion-oscura {
-  color: rgb(216, 216, 216);
+  color: rgb(255, 255, 255);
   background-color: #5c7aff;
 }
 
@@ -79,7 +79,7 @@ body{
 /* Seccion Hero */
 
 .hero {
-  background-color: #d3d3d3;
+  background-color: #ececec;
   min-height: 450px;
   text-align: center;
 }
@@ -112,6 +112,10 @@ body{
 }
 
 /* Experiencia */
+.color_ticket{
+  background-color: #0a319e;
+  color: white;
+}
 
 .experiencia {
   padding: 40px 40px 60px 40px;
@@ -135,7 +139,7 @@ body{
 .experiencia i {
   font-size: 2.5rem;
   color:#73fbd3;
-  background-color: #000000;
+  background-color: #0a319e;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -157,6 +161,7 @@ body{
 }
 
 /* Proyectos */
+
 
 .proyectos-recientes {
   padding: 40px;
@@ -190,7 +195,7 @@ body{
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 0;
-  color: #000000;
+  color: #5c7aff;
 }
 
 .proyecto {
@@ -289,10 +294,7 @@ body{
   background-color: #44e5e7;
   color: rgb(0, 0, 0);
 }
-.color_ticket{
-  background-color: #4a8fe7;
-  color: white;
-}
+
 
 /* Contacto */
 
@@ -304,7 +306,7 @@ body{
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #4a8fe7;
+  background-color: #0a319e;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
