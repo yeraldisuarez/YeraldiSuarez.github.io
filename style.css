@@ -2,12 +2,18 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #d3d3d3;
 }
 
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;  
+}
+.marginbotton{
+  margin-bottom: 70px;
+}
+.margintop{
+  margin-top: 25px;
 }
 
 /* Estilos generales */
@@ -22,17 +28,20 @@ section {
 h1 {
   font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive;
-  color: #08a7ff;
+  color: #5c7aff;
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #08a7ff;
+  color: rgb(216, 216, 216);
+  background-color: #5c7aff;
 }
 
 .seccion-clara {
-  color: black;
-  background-color: white;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+body{
+  background-color: #ffffff;
 }
 
 .seccion-titulo {
@@ -54,7 +63,9 @@ h1 {
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
-  background-color: #08a7ff;
+  background-color: #5c7aff;
+  border: none;
+  color: #ffffff;
 }
 
 .texto-negro {
@@ -68,7 +79,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: #d3d3d3;
   min-height: 450px;
   text-align: center;
 }
@@ -118,13 +129,13 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #08a7ff;
+  background-color: #5c7aff;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color:#64fff8;
-  background-color: #0a319e;
+  color:#73fbd3;
+  background-color: #000000;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -179,7 +190,7 @@ h1 {
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 0;
-  color: #08a7ff;
+  color: #000000;
 }
 
 .proyecto {
@@ -199,7 +210,7 @@ h1 {
 }
 
 .overlay i {
-  color: black;
+  color: #000000;
   font-size: 60px;
   margin: 10px;
 }
@@ -272,7 +283,15 @@ h1 {
 
 .testimonio-info .cargo {
   font-size: 0.9rem;
-  color: #656060;
+  color: #000000;
+}
+.color_btn:hover{
+  background-color: #44e5e7;
+  color: rgb(0, 0, 0);
+}
+.color_ticket{
+  background-color: #4a8fe7;
+  color: white;
 }
 
 /* Contacto */
@@ -285,7 +304,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #0a319e;
+  background-color: #4a8fe7;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -366,11 +385,11 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid #08a7ff;
+  border: 2px solid #5c7aff;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: #08a7ff;
+  color: #5c7aff;
 }
 
 .derechos-de-autor {
